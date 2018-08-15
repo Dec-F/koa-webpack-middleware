@@ -19,7 +19,7 @@
   "scripts": {
     "lint": "npx standard | npx snazzy",
     "test": "npm run lint",
-    "build": "npm run lint && npx babel -d lib/ middleware/"
+    "build": " npx babel -d lib/ middleware/"
   },
   "repository": {
     "type": "git",
