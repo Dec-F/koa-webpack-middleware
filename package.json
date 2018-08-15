@@ -17,9 +17,9 @@
     "lib"
   ],
   "scripts": {
-    "lint": "standard | snazzy",
+    "lint": "npx standard | npx snazzy",
     "test": "npm run lint",
-    "build": "npm run lint && babel -d lib/ middleware/"
+    "build": "npm run lint && npx babel -d lib/ middleware/"
   },
   "repository": {
     "type": "git",
@@ -51,7 +51,7 @@
     ]
   },
   "dependencies": {
-    "webpack-dev-middleware": "1.12.0",
+    "webpack-dev-middleware": "3.1.3",
     "webpack-hot-middleware": "2.18.2",
     "regenerator-runtime": "0.10.5"
   }
